@@ -1,0 +1,69 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 13,
+        "name": "validate the login functionality",
+        "description": "",
+        "id": "linkedin-website;validate-the-login-functionality;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "Launch the browser and enter the url",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "Login page is opened",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "Enter \"sweta.p.singh@gmail.com\" and \"Yati@123\"",
+            "match": {},
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@tc_01_login"
+          },
+          {
+            "line": 1,
+            "name": "@linkedin"
+          }
+        ]
+      }
+    ],
+    "name": "linkedin Website",
+    "description": "",
+    "id": "linkedin-website",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/Linkined.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@linkedin"
+      }
+    ]
+  }
+]
